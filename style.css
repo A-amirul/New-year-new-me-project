@@ -185,10 +185,10 @@
 
 
     background-image: url(./images/watch.png);
-    width: 880px;
+    width: 920px;
     height: 200px;
-    margin-left: 230px;
-    border-radius: 8px;
+    margin-left: 200px;
+    border-radius: 5px;
     border: 0;
     margin-bottom: 60px;
 }
@@ -196,6 +196,8 @@
 .background-gradiant {
     background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
     padding-bottom: 50px;
+    padding-left: 25px;
+    border-radius: 5px;
 
 }
 
