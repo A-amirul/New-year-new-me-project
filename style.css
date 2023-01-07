@@ -3,6 +3,43 @@
     font-family: 'Work Sans';
 }
 
+/* Extra Header section style */
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 80px;
+    background-color: #cd644d;
+  }
+  .nav-title{
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .jolie-color{
+    color:rgb(7, 7, 46);
+  }
+  nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+ nav ul li {
+    list-style: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 000;
+    padding: 10px;
+  }
+  
+  nav ul a{
+    text-decoration: none;
+    
+  }
+  .nav-title{
+    color: #FFFFFF;
+  }
+
+
 /* banner style design */
 
 .banner {
