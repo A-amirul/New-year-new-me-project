@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* banner style design */
+
+.banner {
+    background-image: url(./images/banner/banner2.png);
+    width: 100%;
+    height: 800px;
+    margin-bottom: 130px;
+}
+
+.banner-content {
+    text-align: right;
+    margin-right: 230px;
+    padding-top: 215px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 30px;
+
+}
+
+.btn-primary {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+/* failure section styles */
+.failure-section-container {
+    display: flex;
+    height: 720px;
+    width: 1080px;
+    margin-bottom: 140px;
+}
+
+.failure-img {
+    width: 570px;
+    height: 720px;
+    margin-left: 100px;
+
+}
+
+.section {
+    padding-top: 250px;
+    padding-left: 80px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.check-content {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.check-image {
+    height: 10px;
+    width: 10px;
+}
+
+.check-description {
+    font-weight: 400;
+    font-size: 14px;
+    color: #444343;
+}
+
+/* My plan section styles */
+.plan-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 50px;
+}
+
+.section-plan-container {
+    display: flex;
+    margin-left: 180px;
+    margin-right: 200px;
+    justify-content: space-around;
+}
+
+.my-plan {
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 100px;
+
+}
+
+.plan-image {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #151414;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 16px;
+    color: #737272;
+    text-align: center;
+
+}
+
+.gradiant-image {
+
+
+    background-image: url(./images/watch.png);
+    width: 880px;
+    height: 200px;
+    margin-left: 230px;
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 60px;
+}
+
+.background-gradiant {
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    padding-bottom: 50px;
+
+}
+
+.gradiant-img-description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.btn-gradiant {
+    background: #FFFFFF;
+    color: #ff0000;
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 8px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+/* footer section style */
+.footer {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background: #151414;
+    gap: 100px;
+    padding: 130px 200px;
+
+}
+
+.future-section {
+    color: #FFFFFF;
+    margin-left: 60px;
+    margin-top: 100px;
+
+
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    padding-bottom: 20px;
+}
+
+.future-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+
+}
+
+.email {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 25px;
+
+}
+
+.phone-no {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.icon {
+    width: 160px;
+    height: 40px;
+}
+
+.subscribe-title {
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.subscribe-section {
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-right: 500px;
+    margin-left: 40px;
+
+}
+
+
+
+input[type="email"] {
+    width: 325px;
+    height: 64px;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background: #151414;
+    color: #F3F3F3;
+    margin-left: 40px;
+
+}
+
+/* Extra footer added style*/
+
+.bellow-footer{
+    background-color: #444343;
+    color: #FFFFFF;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+}
